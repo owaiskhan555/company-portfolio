@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 950px) {
     header {
       display: flex;
         flex-direction: column;
@@ -22,18 +22,42 @@
     #nav a{
       margin-bottom: 10px;
     }
+    #content h1{
+      font-size: 3rem;
+    }
+    #content p,.our-services p,#span p{
+      width: 100%;
+      text-align:justify;
+    }
     .icons{
         display: grid;
         grid-template-columns: auto auto;
         gap: 15px;
+        margin-left: 0;
+    }
+    #about{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    #about-content,#about p{
+      width: 100%;
+    }
+    #about .button{
+      text-align: center;
+    }
+    #about #image{
+      width: 100%;
+      margin-top: 10px;
     }
     #cards-content {
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: auto;
     }
     #cards{
-      width: 12rem;
+      width: 15rem;
     }
+
     #page5 #anchor-tags{
       display: flex;
       flex-direction: column;

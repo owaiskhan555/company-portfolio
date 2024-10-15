@@ -120,7 +120,7 @@ button{
     justify-content: center;
     align-items: center;  
     flex-direction: column;
-    margin: 30px;
+    margin: 20px;
 }
 h1 span{
     color: #8DC53E;
@@ -133,28 +133,28 @@ h1 span{
 .icons{
     display: flex;
     justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px;
 }
 .icon #icon-centre{
-    height: 10rem;
-    width: 10rem;
+    height: 8rem;
+    width: 8rem;
     background-color: gray;
     border:solid 2px #111110;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;  
-    margin-left: 3rem;
 }
 .icons #icon-centre i{
     font-size:5rem;
 }
 .icon p{
-    text-align: center;
     margin-top: 10px;
 }
 .icon h3{
     margin-top: 20px;
-    text-align: center;
+    margin-left: 10px;
 }
 #page3{
     min-height: 100vh;
@@ -180,7 +180,8 @@ h1 span{
 #about #image{
     min-height:80vh;
     width:50% ;
-    margin-left: 30px;
+    /* margin-left: 30px; */
+    
     background-image: url('about.jpg');
 }
 
@@ -245,6 +246,7 @@ h1 span{
     font-size: 1.5rem;
     color: #333;
     margin-top: 40px;
+    text-align: center;
   }
   
   #cards p {
