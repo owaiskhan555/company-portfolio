@@ -31,6 +31,9 @@
       display: grid;
       grid-template-columns: auto auto;
     }
+    #cards{
+      width: 12rem;
+    }
     #page5 #anchor-tags{
       display: flex;
       flex-direction: column;
@@ -44,10 +47,6 @@
       grid-template-columns: auto auto;
       gap: 15px;
     }
-
-
-
-    
     footer{
       min-height:fit-content;
       display: grid;
