@@ -338,11 +338,24 @@ h1 span{
     text-align: center;
 }
 #page7{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #F1F2F2;
+    display: flex;
+    flex-direction: column;
 }
+#page7 .contact-info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+#page7 i{
+    color: #74982E;
+}
+iframe{
+    border: none;
 
+}
 
 
 footer{
@@ -375,3 +388,5 @@ footer{
 #footer-content i{
     color: black;
 }
+
+
