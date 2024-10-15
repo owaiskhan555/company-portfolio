@@ -1,4 +1,4 @@
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     header {
       display: flex;
         flex-direction: column;
@@ -8,7 +8,9 @@
     nav{
         display: flex;
         flex-direction: column;   
-    }
+        padding: 0;
+        background-color: darkmagenta;
+      }
     #nav{
         display: flex;
         flex-direction: column;
@@ -17,8 +19,41 @@
         width: 100%;
         background-color: aqua;
     }
-    .icons{
-        display: flex;   
-        flex-direction: column;
+    #nav a{
+      margin-bottom: 10px;
     }
+    .icons{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 15px;
+    }
+    #cards-content {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    #page5 #anchor-tags{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    #anchor-tags a{
+      margin-bottom: 10px;
+    }
+    #process{
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 15px;
+    }
+
+
+
+    
+    footer{
+      min-height:fit-content;
+      display: grid;
+      grid-template-columns: auto;
   }
+  #footer-content{
+    border: none;
+  }
+}
